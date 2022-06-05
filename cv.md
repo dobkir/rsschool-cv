@@ -4,8 +4,8 @@
 
 <!-- CONTACTS -->
 
-### ![city icon](https://img.icons8.com/material/18/000000/city.png)&nbsp; Samara, Russian Federation
-### [![phone icon](https://img.icons8.com/material/16/000000/phone--v1.png)](tel:+79991723022)+7-999-172-3022 &nbsp;&nbsp; [![email icon](https://img.icons8.com/material/16/000000/send-mass-email.png)](mailto:p.kirillov2020@gmail.com)dobkir@gmail.com &nbsp;&nbsp; [![telegram icon](https://img.icons8.com/material/16/000000/telegram-app.png)](https://telegram.im/@dobkir)dobkir 
+### ![city icon](https://img.icons8.com/material/18/000000/city.png)&nbsp; Samarkand, Uzbekistan
+### [![phone icon](https://img.icons8.com/material/16/000000/phone--v1.png)](tel:+998945784367)+998975784367 &nbsp;&nbsp; [![email icon](https://img.icons8.com/material/16/000000/send-mass-email.png)](mailto:p.kirillov2020@gmail.com)dobkir@gmail.com &nbsp;&nbsp; [![telegram icon](https://img.icons8.com/material/16/000000/telegram-app.png)](https://telegram.im/@dobkir)dobkir 
 ### [![github icon](https://img.icons8.com/material/16/000000/github.png)](https://github.com/dobkir/)dobkir &nbsp;&nbsp; [![linkedin icon](https://img.icons8.com/material/16/000000/linkedin--v1.png)](https://www.linkedin.com/in/pavel-kirillov-dobkir)pavel-kirillov-dobkir &nbsp;&nbsp; [![skype icon](https://img.icons8.com/material/16/000000/skype--v1.png)](https://join.skype.com/invite/zT3dmrW2VgZu)dobkir
 
 <!-- SKILLS -->
