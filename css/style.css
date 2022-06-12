@@ -1,0 +1,427 @@
+:root {
+  font-size: 1em;
+}
+
+.body {
+  background-color: var(--neutral-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+pre {
+  margin: 0;
+}
+
+p,
+ul {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover,
+a:focus {
+  outline: 1px dashed;
+  opacity: 0.7;
+}
+
+.container {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 18.56rem 27rem;
+  grid-template-rows: 13.44rem auto 7.31rem;
+  grid-column-gap: 1.31rem;
+  grid-row-gap: 6px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+
+  max-width: 46.87rem;
+  max-height: 62.2rem;
+  margin: 0 auto;
+
+  background-color: var(--light-color);
+}
+
+/*==================== Header ====================*/
+
+.header {
+  grid-area: header;
+  display: flex;
+  height: 13.44rem;
+
+  color: var(--light-color);
+
+  background: url(../img/backgrounds/header_main_bg.png) 100% 0% no-repeat;
+}
+
+.header__avatar {
+  width: 12rem;
+  height: 13.44rem;
+
+  background: url(../img/backgrounds/avatar-section_bg.png) 0% 0% no-repeat;
+}
+
+.avatar {
+  position: relative;
+
+  width: 17.62rem;
+  height: 13rem;
+  margin: 1.75rem 0 0 0.56rem;
+
+  background: url(../img/backgrounds/avatar_bg.png) 50% 50% no-repeat;
+
+  z-index: 1;
+}
+
+.avatar > img {
+  margin: 0.44rem 1.76rem;
+}
+
+.header__info {
+  position: relative;
+
+  margin: 0 0 0 auto;
+
+  background: url(../img/backgrounds/header__info_bg.png) 100% 0% no-repeat;
+}
+
+.header__greeting {
+  width: 13.69rem;
+  height: 10.25rem;
+  margin: 1.5rem 12rem auto auto;
+}
+
+.header__title {
+  margin-left: 1.125rem;
+
+  font: normal 600 3.25rem/3.55rem "MontserratBold";
+  text-transform: uppercase;
+}
+
+.header__title_surname {
+  font: normal 400 2.37rem/2.75rem "MontserratRegular";
+}
+
+.header__subtitle {
+  font: normal 400 1.25rem/1.5rem "MontserratRegular";
+}
+
+.header__logo {
+  position: relative;
+  bottom: 6.62rem;
+}
+
+/*================= End of Header ================*/
+
+
+
+/*===================== Aside ====================*/
+
+.aside {
+  grid-area: aside;
+  width: 18.56rem;
+  height: auto;
+
+  color: var(--light-color);
+
+  background: url(../img/backgrounds/aside_bg.png) 0% 0% no-repeat;
+}
+
+.aside__aboutme-section,
+.aside__languages,
+.aside__skills {
+  background: url(../img/backgrounds/aside__section_bg.png) 50% 7% no-repeat;
+}
+
+.aside__section-title {
+  font: var(--aside-title-font);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aside__section-text {
+  margin: 0.56rem 1rem 0;
+
+  font: var(--aside-text-font);
+  text-align: justify;
+}
+
+.aside__aboutme-section {
+  height: 7.5rem;
+  margin-top: 3rem;
+
+  overflow: hidden;
+}
+
+.aside__languages {
+  height: 8.12rem;
+  margin-top: 0.5rem;
+}
+
+.aside__languages-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.2rem 1.6rem 0;
+}
+
+.languages__item {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5.44rem;
+
+  font: normal 400 1rem/1.12rem "MontserratRegular";
+}
+
+.languages__item_score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  width: 50%;
+  height: 58%;
+  margin: auto;
+}
+
+.languages__item_name {
+  margin-top: 0.9rem;
+}
+
+.aside__skills {
+  height: 10.5rem;
+  margin-top: 0.5rem;
+}
+
+.aside__skills-list {
+  margin: 1rem 2.06rem 1.94rem;
+}
+
+.skills__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+
+  font: var(--aside-subtitle-font);
+}
+
+.code-instance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 14.94rem;
+  height: 12.94rem;
+  margin: 0 auto;
+}
+
+.code-instance:before {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+
+    background: url(../img/backgrounds/code_instance_bg.png);
+    background-size: cover;
+    filter: blur(32px);
+}
+
+.code-instance > pre {
+  margin: -0.5rem 1.87rem -1.5rem 0;
+}
+
+.code-instance-title,
+.code-instance-description,
+.code-instance-text {
+  position: relative;
+  z-index: 1;
+
+  text-align: center;
+}
+
+.code-instance-title {
+  margin-bottom: 0.62rem;
+
+  font: var(--aside-title-font);
+  color: var(--dark-color);
+}
+
+.code-instance-description {
+  font: var(--aside-subtitle-font);
+  color: var(--dark-color);
+}
+
+.code-instance-text {
+  font: normal 700 1rem/1.12rem "MontserratRegular";
+}
+
+.github__pure-link {
+  text-decoration: underline dotted;
+}
+
+/*================== End of Aside =================*/
+
+
+
+/*====================== Main =====================*/
+
+.main {
+  grid-area: main;
+}
+
+.main__section {
+  margin-bottom: 1.25rem;
+
+  color: var(--dark-color);
+
+  background: url(../img/backgrounds/main_section_bg.png) 100% 0% no-repeat;
+}
+
+.main__section-title {
+  margin-bottom: 1.25rem;
+
+  font: var(--main-title-font);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main__section_subsection {
+  margin: 0 0.87rem 0 2.28rem;
+}
+
+.main__section-subtitle {
+  font: var(--main-subtitle-font);
+  text-transform: uppercase;
+}
+
+.main__section-date {
+  font: var(--main-text-bold-font);
+}
+
+.main__section-text {
+  font: var(--main-text-medium-font);
+}
+
+.main__section_figure {
+  display: flex;
+  align-items: center;
+}
+
+.main__section_figcaption {
+  margin-left: 0.56rem;
+
+  font: var(--main-subtitle-font);
+}
+
+.figcaption__codewars {
+  color: #b1361e;
+}
+
+.contacts {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15rem;
+  height: 7.25rem;
+  margin: auto;
+  margin-top: 34%;
+  padding: 0.56rem 0.69rem;
+
+  font: var(--main-text-regular-font);
+  color: var(--light-color);
+
+  background-color: var(--dark-color);
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+}
+
+/*================== End of Main =================*/
+
+
+
+/*===================== Footer ===================*/
+
+.footer {
+  grid-area: footer;
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+
+  height: 7.31rem;
+  margin-top: -5.67rem;
+
+  color: var(--light-color);
+
+  background: url(../img/backgrounds/footer_bg.png) 100% 100% no-repeat;
+}
+
+.footer__left-side {
+  position: relative;
+  z-index: 1;
+
+  width: 18.56rem;
+  height: 4.5rem;
+  margin-top: 2.86rem;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+
+  font: normal 500 0.87rem/1rem "MontserratMedium";
+
+  background: url(../img/backgrounds/footer_left_bg.png) 0% 100% no-repeat;
+}
+
+.code__links-item {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0.5rem;
+}
+
+.code__links-item-icon {
+  margin-right: 3px;
+}
+
+.footer__right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27rem;
+  height: 2.06rem;
+  margin-top: 5.31rem;
+  padding-left: 4rem;
+
+  font: var(--main-text-regular-font);
+}
+
+/*================= End of Footer ================*/
+
+
+@media (max-width: 768px) {
+
+.body {
+  background-color: var(--light-color);
+}
+
+}
+

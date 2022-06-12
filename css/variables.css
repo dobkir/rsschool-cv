@@ -1,0 +1,13 @@
+:root {
+  --dark-color: #283765;
+  --neutral-color: #8BA2D4;
+  --light-color: #fafafa;
+  --main-title-font: normal 700 1.125rem/2.25rem "MontserratBold";
+  --main-subtitle-font: normal 700 0.87rem/1rem "MontserratBold";
+  --main-text-bold-font: normal 700 0.75rem/1.4rem "MontserratBold";
+  --main-text-medium-font: normal 500 0.69rem/0.81rem "MontserratMedium";
+  --main-text-regular-font: normal 400 0.69rem/0.81rem "MontserratRegular";
+  --aside-title-font: normal 700 1.25rem/1.44rem "MontserratBold";
+  --aside-subtitle-font: normal 700 1rem/1.12rem "MontserratBold";
+  --aside-text-font: normal 500 0.87rem/1rem "MontserratMedium";
+}

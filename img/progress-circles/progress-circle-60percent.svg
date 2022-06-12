@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.01" height="57.01" viewBox="0 0 57.01 57.01">
+  <g id="progress-circle-60percent" transform="translate(-1.495 2)">
+    <path id="progress-circle" d="M26.5,0A26.5,26.5,0,1,1,0,26.5,26.5,26.5,0,0,1,26.5,0Z" transform="translate(3.495 0)" fill="none" stroke="#fff" stroke-width="4"/>
+    <path id="Контур_заполнения" d="M76.512,503.717a26.516,26.516,0,1,1-19.2-44.815" transform="translate(-27.313 -458.902)" fill="none" stroke="#8ba2d4" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>
