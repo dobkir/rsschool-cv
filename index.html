@@ -5,11 +5,355 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>CV Kirillov</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  My CV will be here
+<body class="body">
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+
+      <div class="header__avatar">
+        <figure class="avatar">
+          <img src="img/my_avatar_225x194.png" alt="photo: my photo" width="225" height="194">
+        </figure>
+        <!-- /.avatar -->
+      </div>
+
+      <section class="header__info">
+
+        <div class="header__greeting">
+          <p class="header__subtitle">
+            Hello, I'm
+          </p>
+          <!-- /.header__subtitle -->
+          <h1 class="header__title">
+            Pavel <span class="header__title_surname">Kirillov</span>
+          </h1>
+          <!-- /.header__title -->
+          <p class="header__subtitle">
+            a frontend developer
+          </p>
+          <!-- /.header__subtitle -->
+        </div>
+        <!-- /.header__greeting -->
+
+        <figure class="header__logo">
+          <img src="img/logos/code-line_symbol-1300x640.png" alt="logo: my logo" width="320" height="160">
+        </figure>
+        <!-- /.header__logo -->
+
+      </section>
+      <!-- /.header__info -->
+
+    </header>
+    <!-- /.header -->
+
+
+
+    <!-- Aside -->
+    <aside class="aside">
+
+      <section class="aside__aboutme-section">
+        <h2 class="aside__section-title">
+          About me
+        </h2>
+        <!-- /.aside__section-title -->
+        <p class="aside__section-text">
+          Positive personality. Communicative. Fast learner.
+          I'm always glad to have the opportunity to study and
+          implement new technologies in practice.
+        </p>
+        <!-- /.aside__section-text -->
+      </section>
+      <!-- /.aside__aboutme -->
+
+      <section class="aside__languages">
+        <h2 class="aside__section-title">
+          Languages
+        </h2>
+
+        <ul class="aside__languages-list">
+
+          <!-- Russian language -->
+          <li class="languages__item">
+            <img class="languages__item_progress" src="img/progress-circles/progress-circle-90percent.svg"
+              alt="diagram: progress circle 90 percent" width="54" height="54">
+            <span class="languages__item_score">90%</span>
+            <span class="languages__item_name">Russian</span>
+          </li>
+          <!-- /.languages__item -->
+
+          <!-- English language -->
+          <li class="languages__item">
+            <img class="languages__item_progress" src="img/progress-circles/progress-circle-60percent.svg"
+              alt="diagram: progress circle 60 percent" width="54" height="54">
+            <span class="languages__item_score">60%</span>
+            <span class="languages__item_name">English</span>
+          </li>
+          <!-- /.languages__item -->
+
+          <!-- Deutsch language -->
+          <li class="languages__item">
+            <img class="languages__item_progress" src="img/progress-circles/progress-circle-30percent.svg"
+              alt="diagram: progress circle 30 percent" width="54" height="54">
+            <span class="languages__item_score">30%</span>
+            <span class="languages__item_name">Deutsch</span>
+          </li>
+          <!-- /.languages__item -->
+
+        </ul>
+        <!-- /.aside__languages-list -->
+
+      </section>
+      <!-- /.aside__languages -->
+
+      <section class="aside__skills">
+        <h2 class="aside__section-title">
+          Skills
+        </h2>
+
+        <ul class="aside__skills-list">
+
+          <!-- Russian language -->
+          <li class="skills__item">
+            <span class="skills__item_name">React</span>
+            <img class="skills__item_progress" src="img/progress-bars/progress-bar-100percent.svg"
+              alt="diagram: progress 100 percent" width="150" height="11">
+          </li>
+          <!-- /.skills__item -->
+
+          <!-- English language -->
+          <li class="skills__item">
+            <span class="skills__item_name">Redux</span>
+            <img class="skills__item_progress" src="img/progress-bars/progress-bar-70percent.svg"
+              alt="diagram: progress 70 percent" width="150" height="11">
+          </li>
+          <!-- /.skills__item -->
+
+          <!-- Deutsch language -->
+          <li class="skills__item">
+            <span class="skills__item_name">Next.js</span>
+            <img class="skills__item_progress" src="img/progress-bars/progress-bar-80percent.svg"
+              alt="diagram: progress 80 percent" width="150" height="11">
+          </li>
+          <!-- /.skills__item -->
+
+          <!-- Deutsch language -->
+          <li class="skills__item">
+            <span class="skills__item_name">Tests</span>
+            <img class="skills__item_progress" src="img/progress-bars/progress-bar-60percent.svg"
+              alt="diagram: progress 60 percent" width="150" height="11">
+          </li>
+          <!-- /.skills__item -->
+
+        </ul>
+        <!-- /.aside__skills-list -->
+
+      </section>
+      <!-- /.aside__skills -->
+
+      <!-- Code instance -->
+      <section class="code-instance">
+        <h2 class="code-instance-title">
+          Code instance
+        </h2>
+        <p class="code-instance-description">
+          {I can do some magic}
+        </p>
+        <pre title="My code instance">
+          <code class="code-instance-text">
+        function multiply(a, b) {
+            return a * b
+        }
+          </code>
+        </pre>
+        <p class="code-instance-description">
+          visit my <a class="github__pure-link" href="https://github.com/dobkir" target="_blank">GitHub</a><br>
+          to see more
+        </p>
+        <!-- /.code-instance-description -->
+      </section>
+      <!-- /.code-instance -->
+
+    </aside>
+    <!-- /.aside -->
+
+
+
+    <!-- Main -->
+
+    <!-- Main -->
+    <main class="main">
+
+      <!-- Experience -->
+      <section class="main__section">
+
+        <h2 class="main__section-title">
+          Experience
+        </h2>
+
+        <div class="main__section_subsection">
+          <h3 class="main__section-subtitle">
+            Participation in training projects
+          </h3>
+          <h3 class="main__section-date">
+            2020-2021
+          </h3>
+          <p class="main__section-text">
+            To date, my development experience consists of several training projects on my <a class="github__pure-link"
+              href="https://github.com/dobkir/" target="_blank">GitHub</a> can see.
+          </p>
+        </div>
+        <!-- /.main__section_subsection -->
+
+      </section>
+      <!-- /.main__section (Expirience) -->
+
+      <!-- Education -->
+      <section class="main__section">
+
+        <h2 class="main__section-title">
+          Education
+        </h2>
+
+        <div class="main__section_subsection">
+          <h3 class="main__section-subtitle">
+            Self-education
+          </h3>
+          <h3 class="main__section-date">
+            2020-2022
+          </h3>
+          <p class="main__section-text">
+            Everything that I learned in IT, I learned the form of self-education.
+            Main resources that I was using and use now:
+          </p>
+          <figure class="main__section_figure">
+            <a href="https://learn.javascript.ru/" target="_blank">
+              <img src="img/logos/learnjs-logo.svg" alt="brand: learn.javascript logo" width="136" height="48"
+                title="https://learn.javascript.ru/">
+            </a>
+          </figure>
+          <figure class="main__section_figure">
+            <a href="https://developer.mozilla.org/ru/" target="_blank">
+              <img src="img/logos/mdn-logo.svg" alt="brand: MDN WebDocs logo" width="156" height="48"
+                title="https://developer.mozilla.org/">
+            </a>
+          </figure>
+          <figure class="main__section_figure">
+            <a href="https://www.edx.org/" target="_blank">
+              <img src="img/logos/edx-logo.svg" alt="brand: Edx logo" width="76" height="48"
+                title="https://www.edx.org/">
+            </a>
+          </figure>
+          <figure class="main__section_figure">
+            <a href="https://www.codewars.com/" target="_blank">
+              <img src="img/logos/codewars-logo.svg" alt="brand: Codewars logo" width="48" height="48"
+                title="https://www.codewars.com/">
+            </a>
+            <figcaption class="main__section_figcaption figcaption__codewars">Codewars</figcaption>
+          </figure>
+          <p class="main__section-text">
+            And many thanks to these guys!
+          </p>
+        </div>
+        <!-- /.main__section_subsection -->
+
+      </section>
+      <!-- /.main__section (Education) -->
+
+      <!-- Contacts -->
+      <ul class="contacts">
+
+        <!-- Telegram link -->
+        <li class="contacts__item">
+          <img class="contacts__item-icon" src="img/social_icons/telegram-light.svg" alt="icon: telegram icon"
+            width="24" height="16">
+          <a href="https://telegram.im/@dobkir" target="_blank" title="Telegram link">dobkir</a>
+        </li>
+        <!-- /.contacts__item -->
+
+        <!-- Email -->
+        <li class="contacts__item">
+          <img class="contacts__item-icon" src="img/social_icons/email-light.svg" alt="icon: email" width="24"
+            height="16">
+          <a href="mailto:p.kirillov2020@gmail.com" target="_blank" title="E-mail link">dobkir@gmail.com</a>
+        </li>
+        <!-- /.contacts__item -->
+
+        <!-- Website -->
+        <li class="contacts__item">
+          <img class="contacts__item-icon" src="img/social_icons/web-light.svg" alt="icon: web" width="24" height="16">
+          <a href="https://dobkir.github.io/rsschool-cv/" target="_blank" title="My CV link">
+            https://dobkir.github.io/rsschool-cv/
+          </a>
+        </li>
+        <!-- /.contacts__item -->
+
+        <!-- Home adress -->
+        <li class="contacts__item">
+          <img class="contacts__item-icon" src="img/social_icons/home-light.svg" alt="icon: home" width="24"
+            height="16">
+          <span title="current geographic location">Samara, Russian Federation</span>
+        </li>
+        <!-- /.contacts__item -->
+
+      </ul>
+      <!-- /.contacts -->
+
+
+    </main>
+    <!-- /.main -->
+
+    <!-- /.main -->
+
+
+
+    <!-- Footer -->
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <div class="footer__left-side">
+        <ul class="code__links">
+          <li class="code__links-item">
+            <img class="code__links-item-icon" src="img/social_icons/github-circled-dark.svg" alt="icon: github"
+              width="24" height="24">
+            <a href="https://github.com/dobkir/" target="_blank" title="GitHub link">dobkir</a>
+          </li>
+          <li class="code__links-item">
+            <img class="code__links-item-icon" src="img/logos/codewars-logo-HEX-283765.svg" alt="icon: codewars"
+              width="24" height="24">
+            <a href="https://www.codewars.com/users/dobkir/" target="_blank" title="Codewars link">dobkir</a>
+          </li>
+        </ul>
+        <!-- /.code__links -->
+      </div>
+      <!-- /.footer__left-side -->
+
+      <div class="footer__right-side">
+        <span>This page was made as a test work for</span>
+        <a href="https://rs.school/js/" target="_blank">
+          <img src="img/logos/rs_school_js.svg" alt="brand: RSSchool" width="70" height="23">
+        </a>
+        <time datetime="2022-06-12 09:37">2022</time>
+      </div>
+      <!-- /.footer__right-side -->
+
+    </footer>
+    <!-- /.footer -->
+
+    <!-- /.footer -->
+
+  </div>
+  <!-- /.container -->
 </body>
 
 </html>
