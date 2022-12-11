@@ -82,7 +82,7 @@ a:focus {
   z-index: 1;
 }
 
-.avatar > img {
+.avatar>img {
   margin: 0.44rem 1.76rem;
 }
 
@@ -229,17 +229,17 @@ a:focus {
 }
 
 .code-instance:before {
-    content: "";
-    position: absolute;
-    width: inherit;
-    height: inherit;
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
 
-    background: url(../img/backgrounds/code_instance_bg.png);
-    background-size: cover;
-    filter: blur(32px);
+  background: url(../img/backgrounds/code_instance_bg.png);
+  background-size: cover;
+  filter: blur(32px);
 }
 
-.code-instance > pre {
+.code-instance>pre {
   margin: -0.5rem 1.87rem -1.5rem 0;
 }
 
@@ -283,7 +283,7 @@ a:focus {
 }
 
 .main__section {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.6rem;
 
   color: var(--dark-color);
 
@@ -291,7 +291,7 @@ a:focus {
 }
 
 .main__section-title {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.6rem;
 
   font: var(--main-title-font);
   text-transform: uppercase;
@@ -299,7 +299,7 @@ a:focus {
 }
 
 .main__section_subsection {
-  margin: 0 0.87rem 0 2.28rem;
+  margin: 0 0.87rem 0.6rem 2.28rem;
 }
 
 .main__section-subtitle {
@@ -340,7 +340,6 @@ a:focus {
   width: 15rem;
   height: 7.25rem;
   margin: auto;
-  margin-top: 34%;
   padding: 0.56rem 0.69rem;
 
   font: var(--main-text-regular-font);
@@ -419,9 +418,8 @@ a:focus {
 
 @media (max-width: 768px) {
 
-.body {
-  background-color: var(--light-color);
-}
+  .body {
+    background-color: var(--light-color);
+  }
 
 }
-
